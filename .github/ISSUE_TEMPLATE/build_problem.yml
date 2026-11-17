@@ -1,0 +1,21 @@
+name: Build problem
+description: The image, a hack or the payload doesn't build, or the image builder refuses it.
+labels: [build]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran and its output (the last lines, or the whole log as a file).
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: "`git rev-parse --short HEAD`, and `git submodule status` if the submodules aren't the pinned ones."
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Windows version, Git Bash, the WSL distro, the toolchain you installed.

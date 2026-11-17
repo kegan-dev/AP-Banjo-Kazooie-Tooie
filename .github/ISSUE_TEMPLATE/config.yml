@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A problem while playing Banjo-Kazooie & Tooie
+    url: https://github.com/kegan-dev/Archipelago-BanjoKazooieTooie/issues
+    about: Gameplay, the client and seeds are the combined world's. Report them there.
+  - name: A problem while playing Banjo-Kazooie by itself
+    url: https://github.com/kegan-dev/Archipelago-BanjoKazooie/issues
+    about: The Banjo-Kazooie world's issues.

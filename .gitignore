@@ -1,0 +1,14 @@
+# ROMs and images: never commit game data (roms/README.md says what goes there)
+roms/*
+!roms/README.md
+*.z64
+*.n64
+*.v64
+
+# Build outputs
+hack/bk/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

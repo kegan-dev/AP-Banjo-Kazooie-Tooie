@@ -1,0 +1,8 @@
+[submodule "hack/bt"]
+	path = hack/bt
+	url = https://github.com/kegan-dev/AP-Banjo-Tooie.git
+	branch = bkbt
+[submodule "hack/bk/decomp"]
+	path = hack/bk/decomp
+	url = https://github.com/kegan-dev/AP-Banjo-Kazooie.git
+	branch = bkbt

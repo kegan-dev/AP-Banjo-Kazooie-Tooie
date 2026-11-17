@@ -1,0 +1,2 @@
+# Bash must see LF line endings, whatever core.autocrlf says
+*.sh text eol=lf
